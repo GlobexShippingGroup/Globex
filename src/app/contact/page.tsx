@@ -42,6 +42,19 @@ export default function Contact() {
                     </div>
                   </dl>
                 </div>
+                <div className="rounded-2xl bg-gray-50 p-10">
+                  <h3 className="text-base font-semibold leading-7 text-gray-900">Call us on</h3>
+                  <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                    <div>
+                      <dt className="sr-only">Telephone</dt>
+                      <dd>
+                        <a href="tel:+442030060871" className="font-semibold text-orange-600">
+                        +44 (0) 2030 060 871
+                        </a>
+                      </dd>
+                    </div>
+                  </dl>
+                </div>
               </div>
             </div>
             <div className="grid grid-cols-1 gap-x-8 gap-y-10 pt-16 lg:grid-cols-3">
@@ -55,7 +68,7 @@ export default function Contact() {
                 <div className="rounded-2xl bg-gray-50 p-10">
                   <h3 className="text-base font-semibold leading-7 text-gray-900">Globex Shipping Group Limited</h3>
                   <address className="mt-3 space-y-1 text-sm not-italic leading-6 text-gray-600">
-                    <p>	2 Surrey House Stratton Close</p>
+                    <p>2 Surrey House Stratton Close</p>
                     <p>Edgware</p>
                     <p>HA8 6PX</p>
                   </address>
